@@ -1,0 +1,134 @@
+/*body {
+  font-family: 'Montserrat', sans-serif;
+  background: #303841;
+  color: #FFFFFF;
+  word-wrap: break-word;
+}*/
+.clearfix {
+  overflow: auto;
+}
+.notes-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  /*padding: 50px 50px 80px 80px;*/
+}
+@media (min-width: 401px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}
+#title {
+  font-size: 36px;
+  width: 100%;
+  margin: 25px auto;
+  text-align: center;
+}
+#counter {
+  display: inline-block;
+  background: #738497;
+  padding: 0 15px;
+  border-radius: 25px;
+}
+#addThing {
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+  margin: 15px auto;
+}
+#addText,
+#addButton {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  line-height: 30px;
+  margin: 0;
+  padding: 5px 15px;
+  border-color: #28a7e9;
+}
+#addText {
+  color: #313131;
+  width: 100%;
+  padding-right: 95px;
+}
+#addButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  color: #FFFFFF;
+  background: #28a7e9;
+  width: 80px;
+  transition: 0.2s ease-in-out;
+}
+#addButton:focus,
+#addText:focus {
+  outline: none;
+}
+#addButton:focus,
+#addButton:hover,
+#addButton:active {
+  background: #28a7e9;
+}
+#toDo {
+  box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.2);
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+#toDo li {
+  box-sizing: border-box;
+  position: relative;
+  font-size: 14px;
+  /*text-transform: capitalize;*/
+  line-height: 22px;
+  color : white;
+  list-style: none;
+  text-align: justify;
+  background: #333;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 6px 50px 6px 6px;
+  transition: 0.2s ease-in-out;
+}
+#toDo li:hover {
+  cursor: pointer;
+  background: #222;
+}
+.checkbox {
+  margin-right: 15px;
+}
+.fa-close:before {
+  display: none;
+}
+.done {
+  color: #adb7c3;
+}
+.done .fa-close:before {
+  /*background: red;*/
+  color: #FFF;
+  position: absolute;
+  display: block;
+  font-size: 16px;
+  line-height: 62px;
+  text-align: center;
+  height: 62px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  right: 0;
+  margin-top: -31px;
+  transition: 0.2s ease-in-out;
+}
+.done .fa-close:hover:before {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}

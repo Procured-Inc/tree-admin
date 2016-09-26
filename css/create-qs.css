@@ -1,0 +1,12 @@
+.corAns td {
+	background:#dff0d8;
+	font-weight:bold;
+}
+
+.corAns tr:hover td {
+  background:#22262e;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+  font-weight:250;
+}

@@ -1,0 +1,119 @@
+/*body {
+  font-family: 'Montserrat', sans-serif;
+  background: #303841;
+  color: #FFFFFF;
+  word-wrap: break-word;
+}
+.clearfix {
+  overflow: auto;
+}
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+}*/
+/*@media (min-width: 401px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400);
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+/*Student List*/
+
+.blue.darken-2 {
+    background-color: #28a7e9;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.stud-list{
+  font-size: 17px;
+  background: #F04903;
+  color: white;
+  width: 200px;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: all .3s ease-out;
+}
+
+/*Next & Prev buttons*/
+.prev {
+    margin-left: 25% !important;
+}
+.next {
+    margin-right: 25% !important;
+    margin-left: 58%;
+}
+
+.next, .prev {
+    z-index: 6;
+    position: absolute;
+    top: 160px;
+    font-size: 2em;
+    -webkit-transform: translate(0, -120%);
+    transform: translate(0, -120%);
+    font-family: serif;
+    letter-spacing: -20px;
+}
+.next, .prev {
+    -webkit-transition: transform 0.3s cubic-bezier(0.76, 0.16, 0.19, 0.78);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0.16, 0.19, 0.78);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0.16, 0.19, 0.78);
+    transition: transform 0.3s cubic-bezier(0.76, 0.16, 0.19, 0.78);
+    transition: transform 0.3s cubic-bezier(0.76, 0.16, 0.19, 0.78), -webkit-transform 0.3s cubic-bezier(0.76, 0.16, 0.19, 0.78);
+}
+
+/*title*/
+#tit-wrapper {
+  width:700px;
+  /*clear:both;*/
+}
+#tit-first {
+  /*background-color:red;*/
+  width:200px;
+  float:left;
+}
+#tit-second {
+  /*background-color:blue;*/
+  width:300px;
+  float:left;
+}
+#tit-third {
+  /*background-color:#bada5s5;*/
+  width:200px;
+  float:left;
+}
+
+/*codepen butt*/
+
